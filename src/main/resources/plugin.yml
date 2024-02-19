@@ -1,0 +1,13 @@
+name: 'NEON Plugin'
+version: '${version}'
+main: io.github.neonplugin.NEONPlugin
+api-version: '1.20'
+authors: [JunglTemple]
+description: The NEON Plugin, custom-designed for the Team SMP.
+commands:
+  tnguard:
+    description: "The guard command, for TECH NEXUS guards."
+    usage: "/tnguard [warp]"
+    aliases: [technexus, tn, nv, neonvoid, guard, prison]
+    permission: neon.tnguard.guard
+    permission-message: "Sorry, you're not a guard of TECH NEXUS and therefore can't use this command."
