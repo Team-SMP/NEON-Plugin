@@ -7,6 +7,7 @@ public final class NEONPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+        this.getCommand("tnguard").setExecutor(new CommandKit()); // register guard command
     }
 
     @Override
