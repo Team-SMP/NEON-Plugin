@@ -21,9 +21,13 @@ public class GuardCommand implements CommandExecutor {
             }
             if (args.length > 0 && args[0].equals("lockdown")) {
                 if (args[1].equals("toggle")) {
+                    final Component component = MiniMessage.miniMessage().deserialize("Lockdown at <b><gradient:#7a33ff:#0128ab>TECH NEXUS</gradient></b> has been <b><red>toggled</red></b>!");
+                    player.sendMessage(component);
                     return true;
                 }
                 if (args[1].equals("silence")) {
+                    final Component component = MiniMessage.miniMessage().deserialize("Lockdown at <b><gradient:#7a33ff:#0128ab>TECH NEXUS</gradient> <yellow>silenced</yellow></b>!");
+                    player.sendMessage(component);
                     return true;
                 }
                 return false;
