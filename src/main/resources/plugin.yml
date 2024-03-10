@@ -7,7 +7,7 @@ description: "The NEON Plugin, custom-designed for the Team SMP."
 commands:
   tnguard:
     description: "The guard command, for TECH NEXUS guards."
-    usage: "/tnguard [warp]"
-    aliases: [technexus, tn, nv, neonvoid, guard, prison]
+    usage: "/tnguard [ warp ] [ shift < start | end > ]"
+    aliases: [technexus, tn, prison]
     permission: neon.technexus.guard
     permission-message: "Sorry, you're not a guard of TECH NEXUS and therefore can't use this command."
